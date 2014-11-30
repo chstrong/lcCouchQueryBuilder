@@ -9,10 +9,5 @@ https://github.com/chstrong/lcLibJson
 
 If you think that you require a different library for JSON/Array conversion such as mergJson for example you can change the methods in the functions right at the bottom of lcCouchQueryBuilder source code.
 
-private function couchJsonToArray pJson
-   return jsJsonToArray(pJson)
-end couchJsonToArray
-
-private function couchArrayToJson pArray
-   return jsArrayToJson(pArray)
-end couchArrayToJson
+* couchJsonToArray
+* couchArrayToJson
